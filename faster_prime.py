@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[46]:
-
-
 # Write a function that returns a list of all primes up to a given number.
 # For each number, in order to determine if it is prime, take the following steps:
 # 1. Find the square root of the number
@@ -31,22 +28,11 @@ def allPrimesUpTo(num):
                         return True
             
 
-
 print(allPrimesUpTo(1000))
 print(allPrimesUpTo(2137))
 print(allPrimesUpTo(100))
 print(allPrimesUpTo(13))
 print(allPrimesUpTo(2000))
-
-
-# In[40]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
