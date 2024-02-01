@@ -11,7 +11,6 @@
 from math import sqrt
 
 def allPrimesUpTo(num):
-    divisors = []
     
     if num <= 1: 
         return False
@@ -19,13 +18,10 @@ def allPrimesUpTo(num):
     square = int(sqrt(num))
     for i in range(2,square+1):
         if num % i == 0:
-                divisors.append(i)
+                return True
                 
-                for j in divisors:
-                    if num % j == 0:
-                        return False
-                    else:
-                        return True
+        else:
+            return False
             
 
 print(allPrimesUpTo(1000))
