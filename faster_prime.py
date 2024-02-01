@@ -18,13 +18,13 @@ def allPrimesUpTo(num):
     square = int(sqrt(num))
     for i in range(2,square+1):
         if num % i == 0:
-                return True
+                return False
                 
         else:
-            return False
+            return True
             
 
-print(allPrimesUpTo(1000))
+print(allPrimesUpTo(1000)) 
 print(allPrimesUpTo(2137))
 print(allPrimesUpTo(100))
 print(allPrimesUpTo(13))
